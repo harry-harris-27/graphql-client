@@ -30,4 +30,10 @@
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
+  <!-- Sign each assembly using the graphql Strong Key -->
+  <PropertyGroup>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)graphql.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
 </Project>
